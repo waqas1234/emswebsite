@@ -74,8 +74,6 @@ export default function Companyasidebar() {
     },
   ]);
 
-  // update state when menu link is clicked //
-
   const handleMenuClick = (index) => {
     const updatedMenu = menu.map((item, i) => {
       if (i === index) {
