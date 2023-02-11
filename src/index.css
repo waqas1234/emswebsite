@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* add custom font family */
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
